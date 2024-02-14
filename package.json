@@ -8,13 +8,6 @@
     "test:staged": "jest --passWithNoTests",
     "prepare": "husky"
   },
-  "lint-staged": {
-    "*.ts": [
-      "eslint 'src/**' --fix",
-      "npm run test:staged",
-      "git add"
-    ]
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
